@@ -1,6 +1,6 @@
 # electrical-week-5-task-1
 
-smart methods internship week 5 task 1: ESP32 Motion-Activated LED with LDR
+smart methods internship week 5 task 1: ESP32 Motion-Activated LED with LDR and PIR
 
 This project demonstrates how to use an ESP32 microcontroller to control an LED based on readings from a Light Dependent Resistor (LDR) and a Passive Infrared (PIR) motion sensor. When the environment is dark and motion is detected, the LED will turn on.
 
