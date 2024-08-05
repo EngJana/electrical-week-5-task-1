@@ -46,13 +46,13 @@ Below is the circuit diagram for the project:
 
 ## How It Works
 
-the code is provided in the repositry 
-
 - LDR (Light Dependent Resistor): Detects the ambient light level. When light falls on the LDR, its resistance decreases, resulting in a higher voltage drop across it. This change in resistance is read by the ESP32's analog input pin (GPIO 14).
 - PIR (Passive Infrared) Sensor: Detects motion by measuring changes in infrared radiation in its surroundings. When motion is detected, the PIR sensor outputs a HIGH signal to GPIO 25 of the ESP32.
 - Relay Module: Acts as a switch to control the LED. When the relay is activated, it closes the circuit between the NO and COM terminals, allowing current to flow through the LED and turn it on.
 
 ### Code Explanation
+
+the code is provided in the repositry 
 
 1. **Setup Function**:
 - setup() is a function that runs once when the microcontroller is powered on or reset.
