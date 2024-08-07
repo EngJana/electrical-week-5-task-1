@@ -69,3 +69,5 @@ Serial.begin(115200) initializes serial communication at a baud rate of 115200 b
    - If both conditions are met, digitalWrite(relayPin, HIGH) turns on the relay, and Serial.println("Relay ON") prints "Relay ON" to the serial monitor.
    - If either condition is not met, digitalWrite(relayPin, LOW) turns off the relay, and Serial.println("Relay OFF") prints "Relay OFF" to the serial monitor.
 - delay(1000) pauses the program for 1 second before repeating the loop.
+<img width="347" alt="off" src="https://github.com/user-attachments/assets/ffdb31a2-8d36-4fc3-9480-fb64af4a4a6e">
+<img width="377" alt="on" src="https://github.com/user-attachments/assets/c173055c-e590-4f48-87fb-f782b4881a5b">
